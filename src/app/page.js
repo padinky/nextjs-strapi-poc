@@ -7,7 +7,7 @@ const HomePage = () => {
   const [brands, setBrands] = useState([]);
 
   // Bearer token for authentication
-  const token = 'adccbf95a5027186723a8f73b14e92bbac1add50a15514e123f82289f057cdefa6a4c2dcb49b5fdeb65ed1e6874ba9b15f92c5b43954d1c688c91ca98b4625d6f1b0c384db6497d1079927b1a926a06ce48bc25126c92f06259f37c7dfd1d61f927e1846abadf050929d7e8ff1ff27e9f774dfad48692f52dd564aca547f0363';
+  const token = 'd72e772490b472e8e5b221feddf2ac7a510a494eb9c4c9eed80fbf760d5073a930234c6595bb9caf1616843feea77265a0957fb4cf38bcfeb2adeda3ed3c635801462f93fde919d40fe7c09ebfc894c8349f34dbc55bae1eb783c83813e22965b1b79de87c78a608a5488435ff360cacbd06e47f81e97e60b4ad53a622eac57e';
 
   // Fetch brands with logos
   useEffect(() => {
